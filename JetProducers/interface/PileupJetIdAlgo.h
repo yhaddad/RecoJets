@@ -38,7 +38,7 @@ class PileupJetIdAlgo {
 					 const reco::Vertex *, 
 					 const reco::VertexCollection &,
 					 bool calculateMva=false);
-	
+  
   PileupJetIdentifier computeIdVariables(const pat::Jet * jet,
 					 const edm::PtrVector<pat::PackedCandidate> PtrCandAll,
 					 const edm::Ptr<reco::Vertex>,
